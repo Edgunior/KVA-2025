@@ -1,0 +1,31 @@
+body {
+    margin:0;
+    width: 100vw;
+    height: 100vh;
+    font-family: monospace;
+    background-color:#1e2124 ;
+}
+a {
+    color: grey;
+}
+h1, h2, h3, h4, h5, h6, p {
+    color: #ffffff;
+}
+
+.container{
+    margin-top: 30px;
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.example-card {
+    max-width: 400px;
+}
+
+.loading {
+    text-align: center;
+    width: 600px;
+    height: 300px;
+    align-items: center;
+}
