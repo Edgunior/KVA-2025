@@ -24,11 +24,4 @@
 
 </div>
 
-<div *ngIf="!flights && !error" class="container">
-    <mat-card class="loading" appearance="outlined">
-        <mat-card-content>
-    <img mat-card-image src="/assets/loader.svg" style="width:100px;">
-            <h2>Loading...</h2>
-        </mat-card-content>
-    </mat-card>
-</div>
+<app-loading *ngIf="!flights && !error" />
